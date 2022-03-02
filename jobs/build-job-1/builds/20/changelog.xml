@@ -1,0 +1,20 @@
+commit 5db5c81b5c7efb0c4ffb86fe23cce91c09b7edac
+tree d580ccd8a79ab0d58c0a83ff7a64ace5bc388e5a
+parent 8af3f0b8086ddb55acfc317bea6b0481d0c3c843
+author santhoshgithub1 <100076565+santhoshgithub1@users.noreply.github.com> 2022-02-28 00:13:55 +0530
+committer GitHub <noreply@github.com> 2022-02-28 00:13:55 +0530
+
+    warfile
+    
+    warfilefortomcat
+
+:000000 100644 0000000000000000000000000000000000000000 66c37f6ee15892e51906fa54ed242304c695a637 A	warfile
+commit 8af3f0b8086ddb55acfc317bea6b0481d0c3c843
+tree 4b825dc642cb6eb9a060e54bf8d69288fbee4904
+parent 079b19c4f5eef35ffe1a1bd40bbcce3b2e222a92
+author santhoshgithub1 <100076565+santhoshgithub1@users.noreply.github.com> 2022-02-28 00:13:10 +0530
+committer GitHub <noreply@github.com> 2022-02-28 00:13:10 +0530
+
+    Delete pom.xml2
+
+:100644 000000 9122df32a87bd8a07d1e2fc7893b3d76c7132880 0000000000000000000000000000000000000000 D	pom.xml2

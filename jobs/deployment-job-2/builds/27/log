@@ -1,0 +1,10 @@
+Started by user [8mha:////4G9kPLeaG9+uSWkfpuZLoFKxIZ3CfN0pRNHTDjFGbSwEAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mabc
+Running as SYSTEM
+Building remotely on [8mha:////4JU4dfk5ee1dmdl9Sq60gf6e1+Iq6ubng6Wo5D06BmHlAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/eKcxLLU+Dyga40AcVatS8oAAAA=[0mslave_node2 in workspace /opt/jenkins/workspace/deployment-job-2
+[deployment-job-2] $ /bin/sh -xe /tmp/jenkins1338263031695160042.sh
++ scp -i Devops2022.pem /opt/jenkins/workspace/build-job-1 ec2-user@172.31.32.96:/opt/jenkins/workspace
+Warning: Identity file Devops2022.pem not accessible: No such file or directory.
+Host key verification failed.
+lost connection
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

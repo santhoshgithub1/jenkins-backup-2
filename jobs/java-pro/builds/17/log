@@ -1,0 +1,70 @@
+Started by GitHub push by santhoshgithub1
+Running as SYSTEM
+Building remotely on [8mha:////4JU4dfk5ee1dmdl9Sq60gf6e1+Iq6ubng6Wo5D06BmHlAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/eKcxLLU+Dyga40AcVatS8oAAAA=[0mslave_node2 in workspace /opt/jenkins/workspace/java-pro
+The recommended git tool is: NONE
+using credential abea119b-337a-4e5d-94c5-0dfe2ebf5bc6
+ > git rev-parse --resolve-git-dir /opt/jenkins/workspace/java-pro/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/santhoshgithub1/pom.git # timeout=10
+Fetching upstream changes from https://github.com/santhoshgithub1/pom.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials 
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /opt/jenkins/workspace/java-pro@tmp/jenkins-gitclient-ssh8932371000479168253.key
+ > git fetch --tags --force --progress -- https://github.com/santhoshgithub1/pom.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 6874394ca2a5d78b7663cec18e26e548ec3de716 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6874394ca2a5d78b7663cec18e26e548ec3de716 # timeout=10
+Commit message: "Update pom.xml"
+ > git rev-list --no-walk f4bd2e2dc3b76e2499697257afd2527a3468fd80 # timeout=10
+[java-pro] $ /bin/sh -xe /tmp/jenkins56135456647576864.sh
++ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< org.jacoco:org.jacoco.examples.maven.java >--------------
+[INFO] Building JaCoCo Maven plug-in example for Java project 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.jacoco.examples.maven.java ---
+[INFO] Deleting /opt/jenkins/workspace/java-pro/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default) @ org.jacoco.examples.maven.java ---
+[INFO] argLine set to -javaagent:/home/ec2-user/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/opt/jenkins/workspace/java-pro/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.jacoco.examples.maven.java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/jenkins/workspace/java-pro/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ org.jacoco.examples.maven.java ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.jacoco.examples.maven.java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/jenkins/workspace/java-pro/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ org.jacoco.examples.maven.java ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ org.jacoco.examples.maven.java ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:report (report) @ org.jacoco.examples.maven.java ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ org.jacoco.examples.maven.java ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /opt/jenkins/workspace/java-pro/target/org.jacoco.examples.maven.java-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ org.jacoco.examples.maven.java ---
+[INFO] Installing /opt/jenkins/workspace/java-pro/target/org.jacoco.examples.maven.java-1.0-SNAPSHOT.jar to /home/ec2-user/.m2/repository/org/jacoco/org.jacoco.examples.maven.java/1.0-SNAPSHOT/org.jacoco.examples.maven.java-1.0-SNAPSHOT.jar
+[INFO] Installing /opt/jenkins/workspace/java-pro/pom.xml to /home/ec2-user/.m2/repository/org/jacoco/org.jacoco.examples.maven.java/1.0-SNAPSHOT/org.jacoco.examples.maven.java-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.377 s
+[INFO] Finished at: 2022-02-27T11:30:27Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

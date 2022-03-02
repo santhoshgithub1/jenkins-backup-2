@@ -1,0 +1,62 @@
+Started by user [8mha:////4G9kPLeaG9+uSWkfpuZLoFKxIZ3CfN0pRNHTDjFGbSwEAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mabc
+Running as SYSTEM
+Building remotely on [8mha:////4Ed7umuX/o2s88KutHlKx6gasW2573dxLcPOq/udUFatAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/eKcxLLU+Dygaw0Bywek0soAAAA=[0mslave_node1 in workspace /opt/jenkins/workspace/c-project-new
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/santhoshgithub1/c-project.git
+ > git init /opt/jenkins/workspace/c-project-new # timeout=10
+Fetching upstream changes from https://github.com/santhoshgithub1/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/santhoshgithub1/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/santhoshgithub1/c-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision f247add1da3280cf1747a62298ec4878eb7d6160 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f247add1da3280cf1747a62298ec4878eb7d6160 # timeout=10
+Commit message: "Update big2.c"
+ > git rev-list --no-walk f247add1da3280cf1747a62298ec4878eb7d6160 # timeout=10
+[c-project-new] $ /bin/sh -xe /tmp/jenkins8185277576131862683.sh
++ make ABC.exe
+gcc -c main.c
+main.c:1:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ main() {
+ ^~~~
+main.c: In function ‘main’:
+main.c:3:2: warning: implicit declaration of function ‘biggest2’ [-Wimplicit-function-declaration]
+  biggest2();
+  ^~~~~~~~
+main.c:4:2: warning: implicit declaration of function ‘biggest3’ [-Wimplicit-function-declaration]
+  biggest3();
+  ^~~~~~~~
+main.c:5:2: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+  factorial();
+  ^~~~~~~~~
+main.c:6:2: warning: implicit declaration of function ‘fibanaci’ [-Wimplicit-function-declaration]
+  fibanaci();
+  ^~~~~~~~
+main.c:7:2: warning: implicit declaration of function ‘pallindrome’ [-Wimplicit-function-declaration]
+  pallindrome();
+  ^~~~~~~~~~~
+main.c:8:2: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+  reverse();
+  ^~~~~~~
+main.c:9:2: warning: implicit declaration of function ‘sorting’ [-Wimplicit-function-declaration]
+  sorting();
+  ^~~~~~~
+main.c:10:2: warning: implicit declaration of function ‘sumoftwo’ [-Wimplicit-function-declaration]
+  sumoftwo();
+  ^~~~~~~~
+gcc -c big2.c
+gcc -c big3.c
+gcc -c fact.c
+gcc -c fib.c
+gcc -c pal.c
+gcc -c reverse.c
+gcc -c sorting.c
+gcc -c sum2.c
+gcc -o ABC.exe main.o big2.o big3.o  fact.o  fib.o pal.o  reverse.o  sorting.o  sum2.o
+Finished: SUCCESS

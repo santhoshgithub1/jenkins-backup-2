@@ -1,0 +1,20 @@
+commit 079b19c4f5eef35ffe1a1bd40bbcce3b2e222a92
+tree eb3d58627afaba3fb13b4067662ae3713be98e04
+parent c356297816ecb51674d2989785c7a7bfb709b446
+author santhoshgithub1 <100076565+santhoshgithub1@users.noreply.github.com> 2022-02-28 00:02:06 +0530
+committer GitHub <noreply@github.com> 2022-02-28 00:02:06 +0530
+
+    pomfile2
+    
+    pomfile to deploy in tomcat
+
+:000000 100644 0000000000000000000000000000000000000000 9122df32a87bd8a07d1e2fc7893b3d76c7132880 A	pom.xml2
+commit c356297816ecb51674d2989785c7a7bfb709b446
+tree 4b825dc642cb6eb9a060e54bf8d69288fbee4904
+parent 65ed268aeb44e4db41adaa60ce865faec3b38be9
+author santhoshgithub1 <100076565+santhoshgithub1@users.noreply.github.com> 2022-02-28 00:00:55 +0530
+committer GitHub <noreply@github.com> 2022-02-28 00:00:55 +0530
+
+    Delete sample (1).war
+
+:100644 000000 0a127e6bd1f6991c32f591e577b42a50210c60f7 0000000000000000000000000000000000000000 D	sample (1).war

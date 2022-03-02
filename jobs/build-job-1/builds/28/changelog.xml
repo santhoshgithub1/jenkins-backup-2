@@ -1,0 +1,20 @@
+commit 3a843574bac9eb474bee701a877cbe79411b1445
+tree 236e0316860b9c07eacdfb8df4850ab47cdf33ce
+parent a3dd4ced68b3f960e830b29041614c4784dcd163
+author santhoshgithub1 <100076565+santhoshgithub1@users.noreply.github.com> 2022-02-28 00:56:03 +0530
+committer GitHub <noreply@github.com> 2022-02-28 00:56:03 +0530
+
+    war.war
+    
+    war file to deply to tomcat
+
+:000000 100644 0000000000000000000000000000000000000000 a3e6f01d5bffedebd46500b47e61f05149c5fde8 A	war.war
+commit a3dd4ced68b3f960e830b29041614c4784dcd163
+tree 4b825dc642cb6eb9a060e54bf8d69288fbee4904
+parent 5fe2a57fc5ad6c704262353ea138d1ea4a405d4e
+author santhoshgithub1 <100076565+santhoshgithub1@users.noreply.github.com> 2022-02-28 00:55:12 +0530
+committer GitHub <noreply@github.com> 2022-02-28 00:55:12 +0530
+
+    Delete santhoshwar
+
+:100644 000000 b8b4818038f99d0c0ad55a1c09c3a60230000339 0000000000000000000000000000000000000000 D	santhoshwar

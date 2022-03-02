@@ -1,0 +1,29 @@
+Started by user [8mha:////4G9kPLeaG9+uSWkfpuZLoFKxIZ3CfN0pRNHTDjFGbSwEAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mabc
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/projectnew
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/projectnew/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/santhoshgithub1/c-project.git # timeout=10
+Fetching upstream changes from https://github.com/santhoshgithub1/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/santhoshgithub1/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 0be937df9af39b6255e296d8425575c96d16eaf1 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0be937df9af39b6255e296d8425575c96d16eaf1 # timeout=10
+Commit message: "pushing all files to c-project"
+ > git rev-list --no-walk 0be937df9af39b6255e296d8425575c96d16eaf1 # timeout=10
+[projectnew] $ /bin/sh -xe /tmp/jenkins2140327902281002620.sh
++ cd /var/lib/jenkins/workspace/projectnew
++ make ABC.exe
+gcc -c big2.c
+big2.c:1:10: fatal error: stdio.h: No such file or directory
+ #include <stdio.h>
+          ^~~~~~~~~
+compilation terminated.
+make: *** [makefile:6: big2.o] Error 1
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

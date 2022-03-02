@@ -1,0 +1,23 @@
+Started by user [8mha:////4G9kPLeaG9+uSWkfpuZLoFKxIZ3CfN0pRNHTDjFGbSwEAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mabc
+Running as SYSTEM
+Building remotely on [8mha:////4JU4dfk5ee1dmdl9Sq60gf6e1+Iq6ubng6Wo5D06BmHlAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/eKcxLLU+Dyga40AcVatS8oAAAA=[0mslave_node2 in workspace /opt/jenkins/workspace/java-pro
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /opt/jenkins/workspace/java-pro/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/santhoshgithub1/pom.git # timeout=10
+Fetching upstream changes from https://github.com/santhoshgithub1/pom.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/santhoshgithub1/pom.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 006dba79a50f0a85c9de7cf066a71f3eadc2563b (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 006dba79a50f0a85c9de7cf066a71f3eadc2563b # timeout=10
+Commit message: "sample pom.xml"
+ > git rev-list --no-walk 006dba79a50f0a85c9de7cf066a71f3eadc2563b # timeout=10
+[java-pro] $ /bin/sh -xe /tmp/jenkins6368056702354553807.sh
++ /opt/jenkins/
+/tmp/jenkins6368056702354553807.sh: line 2: /opt/jenkins/: Is a directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

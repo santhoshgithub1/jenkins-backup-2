@@ -1,0 +1,23 @@
+Started by user [8mha:////4G9kPLeaG9+uSWkfpuZLoFKxIZ3CfN0pRNHTDjFGbSwEAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mabc
+Running as SYSTEM
+Building remotely on [8mha:////4Ed7umuX/o2s88KutHlKx6gasW2573dxLcPOq/udUFatAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/eKcxLLU+Dygaw0Bywek0soAAAA=[0mslave_node1 in workspace /opt/jenkins/workspace/deploy_to_tomcat_from_jenkins
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /opt/jenkins/workspace/deploy_to_tomcat_from_jenkins/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/santhoshgithub1/samplewar.git # timeout=10
+Fetching upstream changes from https://github.com/santhoshgithub1/samplewar.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/santhoshgithub1/samplewar.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 67f52c2d8dcfb04b0feb2b3523da233fe5d6edd0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67f52c2d8dcfb04b0feb2b3523da233fe5d6edd0 # timeout=10
+Commit message: "warfile"
+ > git rev-list --no-walk 67f52c2d8dcfb04b0feb2b3523da233fe5d6edd0 # timeout=10
+[deploy_to_tomcat_from_jenkins] $ /bin/sh -xe /tmp/jenkins6840155860824028423.sh
++ /opt/jenkins/
+/tmp/jenkins6840155860824028423.sh: line 2: /opt/jenkins/: Is a directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

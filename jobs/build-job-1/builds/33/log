@@ -1,0 +1,33 @@
+Started by user [8mha:////4G9kPLeaG9+uSWkfpuZLoFKxIZ3CfN0pRNHTDjFGbSwEAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mabc
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/deploy_to_tomcat_from_jenkins
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/deploy_to_tomcat_from_jenkins/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/sivajavatechie/JenkinsWar.git # timeout=10
+Fetching upstream changes from https://github.com/sivajavatechie/JenkinsWar.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/sivajavatechie/JenkinsWar.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 1386a8ac42a432493e41c0efa4be8ff104db115d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1386a8ac42a432493e41c0efa4be8ff104db115d # timeout=10
+Commit message: "Update index.jsp"
+First time build. Skipping changelog.
+[deploy_to_tomcat_from_jenkins] $ /bin/sh -xe /tmp/jenkins7379983796253047206.sh
++ mvn clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.jenkins.demo:JenkinsWar1 >--------------------
+[INFO] Building JenkinsWar Maven Webapp 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+Progress (1): 1.4/10 kBProgress (1): 2.7/10 kBProgress (1): 4.1/10 kBProgress (1): 5.5/10 kBProgress (1): 6.9/10 kBProgress (1): 8.2/10 kBProgress (1): 9.6/10 kBProgress (1): 10 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom (10 kB at 139 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+Progress (1): 1.4/11 kBProgress (1): 2.7/11 kBProgress (1): 4.1/11 kBProgress (1): 5.5/11 kBProgress (1): 6.9/11 kBProgress (1): 8.2/11 kBProgress (1): 9.6/11 kBProgress (1): 11 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom (11 kB at 1.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+Progress (1): 1.4/43 kBProgress (1): 2.7/43 kBProgress (1): 4.1/43 kBProgress (1): 5.5/43 kBProgress (1): 6.9/43 kBProgress (1): 8.2/43 kBProgress (1): 9.6/43 kBProgress (1): 11/43 kB Progress (1): 12/43 kBProgress (1): 14/43 kBProgress (1): 15/43 kBProgress (1): 16/43 kBProgress (1): 17/43 kBProgress (1): 19/43 kBProgress (1): 20/43 kBProgress (1): 21/43 kBProgress (1): 23/43 kBProgress (1): 24/43 kBProgress (1): 25/43 kBProgress (1): 27/43 kBProgress (1): 28/43 kBProgress (1): 30/43 kBProgress (1): 31/43 kBProgress (1): 32/43 kBProgress (1): 36/43 kBProgress (1): 40/43 kBProgress (1): 43 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar (43 kB at 8.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom
+Progress (1): 4.1/6.5 kBProgress (1): 6.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom (6.5 kB at 2.4 kB/s)

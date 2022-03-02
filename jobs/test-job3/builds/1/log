@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4KIkx+4Jv6L2j7PC0ikuH/dPKFhvqcZ8Vou0yW5Rpe3IAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JP2U1IKc/Mrc1LwSXSBX10gfABpqkz/LAAAA[0mdeployment-job-2" build number [8mha:////4FHXlyAcXBOSJX6VBtY7dM2e9/UnoPbbi2+Xcwc7Jyr/AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYJ/az8JP2U1IKc/Mrc1LwSXSBX10jf0BwAtymXfc0AAAA=[0m17
+originally caused by:
+ Started by upstream project "[8mha:////4HAfGXVzY5zI14iqKd/7slpcu4wTgXdLGlYpM13ttuCcAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2k0sycFF0gS9dQHwAhxQO7xgAAAA==[0mbuild-job-1" build number [8mha:////4COgelgOoCee8xgNWxMDV88igXsvr4m/qc7SxEP4ORAiAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JP2k0sycFF0gS9dQ39QQANKXo4TIAAAA[0m51
+ originally caused by:
+  Started by user [8mha:////4G9kPLeaG9+uSWkfpuZLoFKxIZ3CfN0pRNHTDjFGbSwEAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mabc
+Running as SYSTEM
+Building remotely on [8mha:////4JU4dfk5ee1dmdl9Sq60gf6e1+Iq6ubng6Wo5D06BmHlAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/eKcxLLU+Dyga40AcVatS8oAAAA=[0mslave_node2 in workspace /opt/jenkins/workspace/test-job3
+[test-job3] $ /bin/sh -xe /tmp/jenkins5873829968969818742.sh
++ echo 'build,deploy,test is successful'
+build,deploy,test is successful
+Finished: SUCCESS

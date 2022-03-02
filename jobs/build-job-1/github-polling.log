@@ -1,0 +1,13 @@
+Started on Feb 28, 2022 6:59:55 AM
+Started by event from 140.82.115.109 ⇒ http://3.109.203.239:8080/github-webhook/ on Mon Feb 28 06:59:55 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision 6fd6eeb87c2be2170a0f19bdabc5e5490ad7cd04 (refs/remotes/origin/main)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git ls-remote -h -- https://github.com/santhoshgithub1/samplewar.git # timeout=10
+Found 1 remote heads on https://github.com/santhoshgithub1/samplewar.git
+[poll] Latest remote head revision on refs/heads/main is: 9baa5a0cdfb19fc0188c132f53d825424c224cf7
+Done. Took 0.29 sec
+Changes found

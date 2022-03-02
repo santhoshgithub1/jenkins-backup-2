@@ -1,0 +1,17 @@
+Started on Feb 27, 2022 8:39:00 AM
+Started by event from 140.82.115.116 ⇒ http://65.2.73.219:8080/github-webhook/ on Sun Feb 27 08:39:00 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision 006dba79a50f0a85c9de7cf066a71f3eadc2563b (refs/remotes/origin/main)
+The recommended git tool is: NONE
+using credential abea119b-337a-4e5d-94c5-0dfe2ebf5bc6
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials 
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /tmp/jenkins-gitclient-ssh8693210881878460375.key
+ > git ls-remote -h -- https://github.com/santhoshgithub1/pom.git # timeout=10
+Found 1 remote heads on https://github.com/santhoshgithub1/pom.git
+[poll] Latest remote head revision on refs/heads/main is: dc1a1093079f5ba2bbf1299919e1e710f5fa4269
+Done. Took 0.36 sec
+Changes found

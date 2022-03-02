@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-02-27 19:22:03.102 UTC</timestamp>
+  <md5sum>5e4221e6257a0c7f544219d54b5d93a6</md5sum>
+  <fileName>Credential id=deployer name=deployer/****** (deploy)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.6.1">
+      <timestamp>1645990866596</timestamp>
+      <itemFullName>deploy_to_tomcat_from_jenkins</itemFullName>
+      <timestamp0>1645989723063</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

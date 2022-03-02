@@ -1,0 +1,23 @@
+Started by GitHub push by santhoshgithub1
+Running as SYSTEM
+Building remotely on [8mha:////4Ed7umuX/o2s88KutHlKx6gasW2573dxLcPOq/udUFatAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/eKcxLLU+Dygaw0Bywek0soAAAA=[0mslave_node1 in workspace /opt/jenkins/workspace/c-project-new
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /opt/jenkins/workspace/c-project-new/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/santhoshgithub1/c-project.git # timeout=10
+Fetching upstream changes from https://github.com/santhoshgithub1/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/santhoshgithub1/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision f247add1da3280cf1747a62298ec4878eb7d6160 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f247add1da3280cf1747a62298ec4878eb7d6160 # timeout=10
+Commit message: "Update big2.c"
+ > git rev-list --no-walk f9a8f401e93bb5eb04f70df0813a091bc1d38b5a # timeout=10
+[c-project-new] $ /bin/sh -xe /tmp/jenkins1904764566662678056.sh
++ make ABC.exe
+gcc -c big2.c
+gcc -o ABC.exe main.o big2.o big3.o  fact.o  fib.o pal.o  reverse.o  sorting.o  sum2.o
+Finished: SUCCESS

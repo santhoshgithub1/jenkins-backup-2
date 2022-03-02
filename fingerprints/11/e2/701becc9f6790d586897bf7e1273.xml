@@ -1,0 +1,37 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-02-25 11:45:12.235 UTC</timestamp>
+  <md5sum>11e2701becc9f6790d586897bf7e1273</md5sum>
+  <fileName>Credential id=abea119b-337a-4e5d-94c5-0dfe2ebf5bc6 name=ec2-user</fileName>
+  <usages>
+    <entry>
+      <string>deploy_to_tomcat_from_jenkins</string>
+      <ranges>34</ranges>
+    </entry>
+    <entry>
+      <string>java-pro</string>
+      <ranges>9-18</ranges>
+    </entry>
+    <entry>
+      <string>projectnew</string>
+      <ranges>5</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@2.6.1">
+      <timestamp>1646211033360</timestamp>
+      <nodeName>slave_node1</nodeName>
+      <timestamp0>1646210193359</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@2.6.1">
+      <timestamp>1646211033372</timestamp>
+      <nodeName>slave_node3</nodeName>
+      <timestamp0>1646210193340</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@2.6.1">
+      <timestamp>1646211033377</timestamp>
+      <nodeName>slave_node2</nodeName>
+      <timestamp0>1646210193351</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

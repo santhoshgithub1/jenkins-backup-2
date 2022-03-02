@@ -1,0 +1,20 @@
+commit 1c2cfa968f2f9976e66fc48fd48be6daa662e4f0
+tree 6f2ba8957bd8c2570a4596dfe4ec110462b78d81
+parent c5db7a3d6fbf96b7720ad43eeeddec0046c45b3d
+author santhoshgithub1 <100076565+santhoshgithub1@users.noreply.github.com> 2022-02-28 00:27:51 +0530
+committer GitHub <noreply@github.com> 2022-02-28 00:27:51 +0530
+
+    pomfile
+    
+    pomfile to deploy to tomcat
+
+:000000 100644 0000000000000000000000000000000000000000 6bf6ffe04757b9aab50fa3f89c779d4bc2a12007 A	pomfile
+commit c5db7a3d6fbf96b7720ad43eeeddec0046c45b3d
+tree 4b825dc642cb6eb9a060e54bf8d69288fbee4904
+parent 5db5c81b5c7efb0c4ffb86fe23cce91c09b7edac
+author santhoshgithub1 <100076565+santhoshgithub1@users.noreply.github.com> 2022-02-28 00:27:14 +0530
+committer GitHub <noreply@github.com> 2022-02-28 00:27:14 +0530
+
+    Delete warfile
+
+:100644 000000 66c37f6ee15892e51906fa54ed242304c695a637 0000000000000000000000000000000000000000 D	warfile

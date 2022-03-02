@@ -1,0 +1,20 @@
+commit 5fe2a57fc5ad6c704262353ea138d1ea4a405d4e
+tree 96069433254651e3a985e49e1d87033ff7270a88
+parent e6cfba4eab52040c13032f0d866bf726a8f2b62d
+author santhoshgithub1 <100076565+santhoshgithub1@users.noreply.github.com> 2022-02-28 00:37:27 +0530
+committer GitHub <noreply@github.com> 2022-02-28 00:37:27 +0530
+
+    santhoshwar
+    
+    war file to add in jenkins
+
+:000000 100644 0000000000000000000000000000000000000000 b8b4818038f99d0c0ad55a1c09c3a60230000339 A	santhoshwar
+commit e6cfba4eab52040c13032f0d866bf726a8f2b62d
+tree 4b825dc642cb6eb9a060e54bf8d69288fbee4904
+parent 1c2cfa968f2f9976e66fc48fd48be6daa662e4f0
+author santhoshgithub1 <100076565+santhoshgithub1@users.noreply.github.com> 2022-02-28 00:35:49 +0530
+committer GitHub <noreply@github.com> 2022-02-28 00:35:49 +0530
+
+    Delete pomfile
+
+:100644 000000 6bf6ffe04757b9aab50fa3f89c779d4bc2a12007 0000000000000000000000000000000000000000 D	pomfile

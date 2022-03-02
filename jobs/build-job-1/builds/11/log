@@ -1,0 +1,24 @@
+Started by user [8mha:////4G9kPLeaG9+uSWkfpuZLoFKxIZ3CfN0pRNHTDjFGbSwEAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mabc
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/deploy_to_tomcat_from_jenkins
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/deploy_to_tomcat_from_jenkins/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/santhoshgithub1/samplewar.git # timeout=10
+Fetching upstream changes from https://github.com/santhoshgithub1/samplewar.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/santhoshgithub1/samplewar.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 586f33412d96edc188dec2bbc67ea037b756b1a3 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 586f33412d96edc188dec2bbc67ea037b756b1a3 # timeout=10
+Commit message: "Create file"
+ > git rev-list --no-walk 586f33412d96edc188dec2bbc67ea037b756b1a3 # timeout=10
+[deploy_to_tomcat_from_jenkins] $ /bin/sh -xe /tmp/jenkins1288643995610651002.sh
++ clean install package
+/tmp/jenkins1288643995610651002.sh: line 2: clean: command not found
+Build step 'Execute shell' marked build as failure
+[DeployPublisher][INFO] Build failed, project not deployed
+Finished: FAILURE
