@@ -1,8 +1,8 @@
 SSHLauncher{host='172.31.38.3', port=22, credentialsId='abea119b-337a-4e5d-94c5-0dfe2ebf5bc6', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=60, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
-[03/02/22 08:51:47] [SSH] Opening SSH connection to 172.31.38.3:22.
-connect timed out
-SSH Connection failed with IOException: "connect timed out", retrying in 15 seconds. There are 10 more retries left.
-connect timed out
-SSH Connection failed with IOException: "connect timed out", retrying in 15 seconds. There are 9 more retries left.
-connect timed out
-SSH Connection failed with IOException: "connect timed out", retrying in 15 seconds. There are 8 more retries left.
+[03/02/22 17:06:19] [SSH] Opening SSH connection to 172.31.38.3:22.
+[03/02/22 17:06:19] [SSH] SSH host key matched the key required for this connection. Connection will be allowed.
+ERROR: Server rejected the 1 private key(s) for ec2-user (credentialId:abea119b-337a-4e5d-94c5-0dfe2ebf5bc6/method:publickey)
+[03/02/22 17:06:19] [SSH] Authentication failed.
+Authentication failed.
+[03/02/22 17:06:19] Launch failed - cleaning up connection
+[03/02/22 17:06:19] [SSH] Connection closed.
