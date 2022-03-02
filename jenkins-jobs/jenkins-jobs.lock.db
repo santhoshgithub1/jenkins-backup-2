@@ -1,0 +1,6 @@
+#FileLock
+#Wed Mar 02 16:34:30 UTC 2022
+hostName=ip-172-31-3-94.ap-south-1.compute.internal
+id=17f4aa71f71452bc375c81be4597b1921636d59b506
+method=file
+server=172.31.3.94\:40405
